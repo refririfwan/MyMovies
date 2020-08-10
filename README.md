@@ -4,10 +4,10 @@ Repository ini Berisi Aplikasi Web sederhana untuk melakukan pencarian dan detai
 
 Dibangun Menggunakan :
 1. ES6
-2. Web Components
-3. Webpack
-4. Bootstrap
-5. API -> Fetch
+2. NPM
+3. Web Components
+4. Webpack
+5. Bootstrap
 
 Instalasi Lingkungan Aplikasi :
 1. Download Repository Github MyMovies (.zip)
