@@ -16,7 +16,7 @@ Instalasi Lingkungan Aplikasi :
 4. Daftar kan akun ada di http://www.omdbapi.com/ hingga mendapatkan API key.
 5. Ganti API Key pada file /src/script/data/movies.js.
 6. Jalankan perintah npm run start-dev untuk menjalankan Aplikasi Web mode development.
-7. Jalankan perintah npm build untuk membuat aplikasi web untuk mode produksi.
+7. Jalankan perintah npm run build untuk membuat aplikasi web untuk mode produksi.
 
 Penggunaan :
 1. Jalankan Aplikasi dalam mode start-dev (Jika dalam mode build (dist/produksi) buka file index.html dalam folder dist dengan live server vscode)
