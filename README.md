@@ -19,8 +19,8 @@ Instalasi Lingkungan Aplikasi :
 7. Jalankan perintah npm build untuk membuat aplikasi web untuk mode produksi.
 
 Penggunaan :
-1. Jalankan Aplikasi dalam mode dev (Jika dalam mode produksi bukan file index.html dengan live server vscode)
-2. Masukan Keyword pada menu search lalu klil tombol search dan akan tampil sejumlah film dalam bentuk cards
+1. Jalankan Aplikasi dalam mode start-dev (Jika dalam mode build (dist/produksi) buka file index.html dalam folder dist dengan live server vscode)
+2. Masukan Keyword pada menu search lalu klik tombol search dan akan tampil sejumlah film dalam bentuk cards
 3. Setiap cards memiliki tombol detail dan klik tombol detail untuk melihat detail film
 
 Note : 
