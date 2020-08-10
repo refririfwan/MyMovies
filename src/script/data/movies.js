@@ -1,6 +1,7 @@
 class Movies {
     static searchMovies (keyword) {
-        fetch('http://www.omdbapi.com/?apikey=5d49748b&s=' + keyword)
+        const key = '5d49748b';
+        fetch('http://www.omdbapi.com/?apikey='+key+'&s=' + keyword)
         .then(response => response.json())
         .then(response => {
             const movies = response.Search;
@@ -30,8 +31,9 @@ class Movies {
             const modalDetailButton = document.querySelectorAll('.modal-detail-button')
             modalDetailButton.forEach(btn => {
                 btn.addEventListener('click', function () {
+                    const key = '5d49748b'
                     const imdbID = this.dataset.imdbid
-                    fetch('http://www.omdbapi.com/?apikey=5d49748b&i=' + imdbID)
+                    fetch('http://www.omdbapi.com/?apikey='+key+'&i=' + imdbID)
                     .then(response => response.json())
                     .then(m => {
                         const movieDetail = `                    
