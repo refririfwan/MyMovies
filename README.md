@@ -25,6 +25,8 @@ Penggunaan :
 
 Note : 
 1. OMDB API Delay 5-15 detik untuk pencarian Film atau detail Film Pertama kali dan 1-10 detik setelahnya.
+2. Penggunaan Bootstrap secara online dikarenakan popper js pada npm telah usang.
+3. Penggunaan jQuery hanya untuk Bootstrap. Pengelolaan CSS dan API menggunakan vanilla javascript.
 
 Sosial Media :
 - Facebook : https://www.facebook.com/refri.rifwan
