@@ -1,6 +1,6 @@
 class Movies {
     static searchMovies (keyword) {
-        const key = '5d49748b';
+        const key = 'Change With Your Key';
         fetch('http://www.omdbapi.com/?apikey='+key+'&s=' + keyword)
         .then(response => response.json())
         .then(response => {
@@ -31,7 +31,7 @@ class Movies {
             const modalDetailButton = document.querySelectorAll('.modal-detail-button')
             modalDetailButton.forEach(btn => {
                 btn.addEventListener('click', function () {
-                    const key = '5d49748b'
+                    const key = 'Change With Your Key'
                     const imdbID = this.dataset.imdbid
                     fetch('http://www.omdbapi.com/?apikey='+key+'&i=' + imdbID)
                     .then(response => response.json())
